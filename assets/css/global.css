@@ -1,0 +1,33 @@
+h1 {
+    color: #f1f1f1;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-style: italic; 
+    margin-left: 30px;
+    
+}
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #242525;
+}
+
+.content {
+    width: 100vw;
+    height: 100vh;
+    padding: 1rem;
+    background-color: #1b1b1b;
+}
+
+@media screen and (min-width: 992px) {
+    .content {
+        max-width: 992px;
+        height: auto;
+        margin: 1rem auto;
+        border-radius: 1rem;
+    }
+}
